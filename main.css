@@ -87,7 +87,7 @@
     margin-left: 24%;
     margin-top: 5%;
     z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .button-3:hover{
@@ -144,7 +144,7 @@
     text-align: center;
     padding-top: 0.8vh;
     margin-top: 3%;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .button-4:hover{
     border: 1px solid #3f3f3f;
