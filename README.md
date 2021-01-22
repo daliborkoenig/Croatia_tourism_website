@@ -1,5 +1,5 @@
 # Croatia tourism website
-![Screenshot](croatia-tourism-website.png)
+![Screenshot](croatia-tourism-website-1.png / croatia-tourism-website-2.png / croatia-tourism-website-3.png)
 > website created using css and html
 ## See it live
 [Croatia tourism website live on github]()
