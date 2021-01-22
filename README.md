@@ -1,8 +1,8 @@
 # Croatia tourism website
-![Screenshot](croatia-tourism-website.png)
+![Screenshot](croatia-tourism-website-1.png / croatia-tourism-website-2.png / croatia-tourism-website-3.png)
 > website created using css and html
 ## See it live
-[Croatia tourism website live on github](https://daliborkoenig.github.io/Croatia_tourism_website/)
+[Croatia tourism website live on github]()
 ## App Info
 the exercise was to choose a template on symu.co and then recreate it using HTML and CSS. I choose this template:
 https://symu.co/freebies/templates-4/polind-psd-template/ and recreated it from scratch just by looking at the picture.
