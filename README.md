@@ -2,12 +2,17 @@
 ![Screenshot](croatia-tourism-website.png)
 > website created using css and html
 ## See it live
-[Croatia tourism website live on github](https://ghassanooooo.github.io/my-portfolio/)
+[Croatia tourism website live on github]()
 ## App Info
+the exercise was to choose a template on symu.co and then recreate it using HTML and CSS. I choose this template:
+https://symu.co/freebies/templates-4/polind-psd-template/ and recreated it from scratch just by looking at the picture.
+
+search bars are functional and redirect to google
+all links are functional
+responsive as much as i know how.
 ### Author
-Ghassan Aldarwish
-[my website](http://ghassanaldarwish.de/)
+Dalibor Koenig
 ### Version
-1.0.0
+1.0.5
 ### License
 This project is licensed under the MIT License
