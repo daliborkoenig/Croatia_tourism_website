@@ -1,0 +1,171 @@
+#main {
+    background-color: #FEFEFE;
+    position: relative;
+    /* border: 1px solid black; */
+    margin-top: 13%;
+}
+
+.main-title {
+    color: #3f3f3f;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 3vh;
+}
+
+.main-search-bar {
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    margin-top: 3%;
+    height: 5vh;
+    width: 40vw;
+    border-radius: 20px;
+    border: 2px solid #3f3f3f;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+
+.search-icon-2 {
+    position: absolute;
+    right: 31%;
+    width: 2vw;
+    margin-top: 3.3%;
+}
+
+.zagreb-container , .varazdin-container , .dubrovnik-container , .brac-container , .kornati-container , .sibenik-container{
+    /* border: 1px solid black; */
+    position: relative;
+    height: 30vh;
+    width: 15vw;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin:1%;
+}
+
+.zagreb-container , .varazdin-container , .dubrovnik-container{
+    margin-top: 10%;
+}
+
+.zagreb-container{
+    margin-left: 25%;
+}
+
+.brac-container{
+    margin-left: 25%;
+}
+
+.picture-main {
+    object-fit: cover;
+    width: 99%;
+    height: 53%;
+    padding: 2%;
+    border-radius: 13px;
+}
+
+.text-main{
+    color: #3f3f3f;
+    font-weight: 600;
+    font-size: 2vh;
+    margin-top: 6%;
+}
+
+.text-main-sub{
+    color: #3f3f3f;
+    font-size: 1.3vh;
+}
+
+.button-3{
+    color: #3f3f3f;
+    position: absolute;
+    border-radius: 25px;
+    background-color: white;
+    width: 8vw;
+    height: 3.5vh;
+    text-align: center;
+    padding-top: 0.7vh;
+    margin-left: 24%;
+    margin-top: 5%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.button-3:hover{
+    background-color: #FEC749;
+    border: 1px solid #3f3f3f;
+}
+
+.main-bottom-container{
+    background-color: #F7F8FA;
+    margin-top: 1vh;
+}
+
+.explore-title{
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 700;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+
+.explore-nin-container{
+    position: relative;
+    /* border: 1px solid black; */
+    height: 50vh;
+    width: 56vw;
+    margin-left: 22%;
+}
+
+.explore-nin{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    color: #3f3f3f;
+    padding: 5%;
+}
+
+.explore-nin p{
+    font-size: 1.2vh;
+    line-height: 1.8;
+}
+ .explore-nin h2{
+     color: #FEC749;
+ }
+
+.button-4{
+    color: #3f3f3f;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #FEC749;
+    width: 8vw;
+    height: 3.5vh;
+    text-align: center;
+    padding-top: 0.8vh;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.button-4:hover{
+    border: 1px solid #3f3f3f;
+}
+
+.explore-nin-image{
+    position: absolute;
+    object-fit: cover;
+    width: 45%;
+    height: 90%;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+}
+
+.yellow-box{
+    position: absolute;
+    border: 0.5vw solid   #FEC749;
+    height: 90%;
+    width: 45%;
+    bottom: 0;
+    right: 0;
+    /* z-index: 5; */
+}

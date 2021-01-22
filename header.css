@@ -1,0 +1,193 @@
+#header {
+    font-family: 'DejaVuSans-Bold', sans-serif;
+    position: relative;
+    /* border: 1px solid black; */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) , url(./images/cover.jpeg) no-repeat center center scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    max-width: 100vw;
+    z-index: 2;
+}
+
+.header-links a{
+    color: white;
+}
+
+.logo {
+    width: 10vw;
+    position: absolute;
+    left: 1%;
+    top: -2%;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.header-links {
+    color: white;
+    position: absolute;
+    top: 4%;
+    right: 1.3%;
+    padding-left: 2vw;
+}
+
+.link {
+    padding-left: 2vw;
+}
+
+.header-search-bar {
+    margin-left: 2vw;
+    height: 2.5vh;
+    border-radius: 15px;
+    border: none;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+
+.link:hover {
+    color: #FEC749;
+}
+.search-icon {
+    position: absolute;
+    right: 1.7%;
+    width: 1vw;
+    padding-top: 0.5%;
+}
+
+.title-1 {
+    color: white;
+    position: absolute;
+    top: 44%;
+    left: 40%;
+    font-size: 7vh;
+    /* text-align: center; */
+}
+
+.title-2 {
+    color: red;
+    position: absolute;
+    top: 51%;
+    left: 39%;
+    font-size: 7vh;
+    /* text-align: center; */
+}
+.title-3 {
+    color: #a3a3a3;
+    position: absolute;
+    top: 59%;
+    left: 41%;
+    font-size: 1.5vh;
+}
+
+.button {
+    color: #3f3f3f;
+    position: absolute;
+    border-radius: 25px;
+    top: 65%;
+    left: 44.3%;
+    background-color: #FEC749;
+    width: 11vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 1.7vh;
+    font-size: 1.6vh;
+}
+
+.picture{
+    position: relative;
+    top: 75%;
+    width: 19.0065%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.picture-1 , .picture-2{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.zagreb , .osijek , .sibenik , .split , .dubrovnik{
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    z-index: 1;
+    font-weight: 700;
+    width: 19%;
+    background-color: rgba(63, 63, 63, 0.7);
+    height: 7%;
+    text-align: center;
+    padding-top: 0.9%;
+
+}
+.zagreb {
+    top: 110%;
+}
+
+.osijek {
+    top: 110%;
+    left: 20.25%;
+}
+
+.sibenik {
+    top: 110%;
+    left: 40.45%;
+}
+
+.split {
+    top: 110%;
+    right: 20.25%;
+}
+
+.dubrovnik {
+    top: 110%;
+    right: 0%;
+}
+
+
+.button-zagreb , .button-osijek , .button-sibenik , .button-split , .button-dubrovnik{
+    color: #3f3f3f;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #FEC749;
+    width: 11vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 1.5vh;
+    z-index: 1;
+}
+
+.button-zagreb {
+    top: 118.6%;
+    left: 3.8%;
+}
+
+.button-osijek {
+    top: 118.6%;
+    left: 24.3%;
+}
+
+.button-sibenik {
+    top: 118.6%;
+    left: 44.3%;
+}
+
+.button-split {
+    top: 118.6%;
+    left: 64.3%;
+}
+
+.button-dubrovnik {
+    top: 118.6%;
+    right: 3.8%;
+}
+
+.button-zagreb:hover , .button-osijek:hover  , .button-sibenik:hover  , .button-split:hover  , .button-dubrovnik:hover , .button:hover {
+    border: 1px solid #3f3f3f;
+}
+
+
+

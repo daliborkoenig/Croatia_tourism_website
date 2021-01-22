@@ -1,0 +1,50 @@
+#footer {
+    position: relative;
+    background-color: #F7F8FA;    
+}
+
+.footer{
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+#footer h2{
+    bottom: 45%;
+    left: 33%;
+    position: absolute;
+    color: white;
+    font-size: 7vh;
+}
+
+#footer p{
+    position: absolute;
+    color: white;
+    bottom: 22%;
+    right: 42%
+}
+
+#footer span{
+    color: #FEC749;
+    text-decoration: underline;
+}
+
+.button-5{
+    color: #3f3f3f;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #FEC749;
+    width: 12vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 1.5vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    top: 60%;
+    left: 44%;
+}
+.button-5:hover{
+    border: 1px solid #3f3f3f;
+}
+
