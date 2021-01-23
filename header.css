@@ -1,7 +1,7 @@
+/* <!-- header styling --> */
+
 #header {
-    font-family: 'DejaVuSans-Bold', sans-serif;
     position: relative;
-    /* border: 1px solid black; */
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) , url(./images/cover.jpeg) no-repeat center center scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,134 +11,111 @@
     z-index: 2;
 }
 
-.header-links a{
-    color: white;
-}
+/* <!-- croatia logo --> */
 
 .logo {
     width: 10%;
-    position: absolute;
-    left: 1%;
-    top: -2%;
+    padding-left: 2%;
 }
-
 .logo:hover {
     transform: scale(1.1);
 }
 
-.header-links {
-    color: white;
-    position: absolute;
-    top: 4%;
-    right: 1.3%;
-    padding-left: 2vw;
-}
+/* <!-- navigation links + search bar --> */
 
+#navbar {
+    height: 3%;
+    float: right;
+    padding-right: 2.5%;
+    margin-top: -5%;    
+}
+#navbar > a{
+    color: white;
+}
 .link {
     padding-left: 2vw;
 }
-
+.link:hover {
+    color: #FEC749;
+}
 .header-search-bar {
     margin-left: 2vw;
-    height: 2.5vh;
+    height: 100%;
     border-radius: 15px;
     border: none;
     padding-left: 1vw;
     opacity: 0.5;
-}
-
-.link:hover {
-    color: #FEC749;
+    vertical-align: middle;
+    min-height: 2.5vh;
 }
 .search-icon {
-    position: absolute;
-    right: 1.7%;
     width: 1vw;
-    padding-top: 0.5%;
+    vertical-align: middle;
+    margin-left: -6%;
 }
+
+/* <!-- center title styling --> */
 
 #title{
-    text-align: center;
     width: 100%;
-    padding-top: 20%;
-}
-.title-1 {
-    color: white;
-    font-size: 7vh;
-}
-
-.title-2 {
-    color: red;
-    font-size: 7vh;
-}
-
-.title-3 {
-    color: #a3a3a3;
-    font-size: 1.5vh;
-}
-
-#title > p.button{
     position: absolute;
-    width: 10%;
-    height: 5%;
-    padding-top: 1.5vh;
-    left: 45%;
-    top: 62.5%;
-    font-size: 1.6vh;
+    text-align: center;
+    top: 30%;    
 }
-
+#title h2:nth-child(1) {
+    color: white;
+    font-size: 4vw;
+}
+#title h2:nth-child(2) {
+    color: red;
+    font-size: 4vw;
+}
+#title p:nth-child(3) {
+    color: #a3a3a3;
+    font-size: 0.9vw;
+}
 .button {
+    margin-left: 45%;
+    margin-top: 4%;
+    width: 10%;
     color: #3f3f3f;
     border-radius: 25px;
     background-color: #FEC749;
+    padding: 0.5%;
+    font-size: 0.8vw;
+    vertical-align: middle;
 }
 
-.picture{
-    position: relative;
-    top: 75%;
-    width: 18.8vw;
-    height: 50%;
-    object-fit: cover;
-    object-position: center;
-}
+/* <!-- city cards with button links --> */
 
 #cities{
+    position: absolute;
     text-align: center;
     width: 100%;
     height: 50%;
-    padding-top: 9%;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    top: 75%;
 }
-
 .image{
     height: 50vh;
     width: 18vw;
     object-fit: cover;
     object-position: center;
 }
-
 .city-container{
     position: relative;
     height: 50vh;
     width: 18vw;
 }
-
-.city-container p{
-    text-align: center;
-}
-
 .city-container > p.city-title{
     position: absolute;
     color: white;
     background-color: rgba(63, 63, 63, 0.7);
     width: 100%;
-    font-size: 3vh;
-    padding: 3%;
-    top: 45%;
+    font-size: 1.8vw;
+    padding: 2%;
+    top: 44%;
 }
-
-.city-container > p.button-cities{
+.city-container > a.button-cities{
     position: absolute;
     width: 50%;
     height: 10%;
@@ -146,20 +123,16 @@
     left: 25%;
     top: 70%;
 }
-
 .button-cities{
-    color: #3f3f3f;
     border-radius: 25px;
     background-color: #FEC749;
     /* width: 11vw;
     height: 5vh; */
     z-index: 1;
 }
-
 .button-cities:hover{
     border: 1px solid #3f3f3f;
 }
-
 .spread{
     margin: 0 1.3% 0 1.3%;
 }

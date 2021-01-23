@@ -1,35 +1,35 @@
+/* <!-- footer styling  --> */
+
 #footer {
+    height: 50vh;
+    width: 100%;
     position: relative;
     background-color: #F7F8FA;    
+    text-align: center;
 }
 
-.footer{
+/* <!-- background image --> */
+
+.footer-image{
     margin-top: 10vh;
-    height: 50vh;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     filter: brightness(0.4);
 }
 
+/* <!-- footer title  --> */
+
 #footer h2{
-    bottom: 45%;
-    left: 33%;
+    width: 100%;
+    bottom: 35%;
     position: absolute;
     color: white;
     font-size: 7vh;
+    vertical-align: middle;
 }
 
-#footer p{
-    position: absolute;
-    color: white;
-    bottom: 22%;
-    right: 42%
-}
-
-#footer span{
-    color: #FEC749;
-    text-decoration: underline;
-}
+/* <!-- footer button / link  --> */
 
 .button-5{
     color: #3f3f3f;
@@ -41,10 +41,24 @@
     text-align: center;
     padding-top: 1.5vh;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    top: 60%;
+    top: 70%;
     left: 44%;
 }
 .button-5:hover{
     border: 1px solid #3f3f3f;
 }
+
+/* <!-- visitors counter --> */
+
+.third{
+    width: 100%;
+    position: absolute;
+    color: white;
+    bottom: 10%;
+}
+
+.third span{
+    color: #FEC749;
+}
+
 

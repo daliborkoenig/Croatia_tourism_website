@@ -1,3 +1,5 @@
+/* <!-- main styling --> */
+
 #main {
     background-color: #FEFEFE;
     position: relative;
@@ -5,13 +7,14 @@
     margin-top: 13%;
 }
 
-.main-title {
+/* <!-- title + search bar styling--> */
+
+#main-title {
     color: #3f3f3f;
     text-align: center;
     padding-top: 3%;
-    font-size: 3vh;
+    font-size: 1.5vw;
 }
-
 .main-search-bar {
     background-color: white;
     position: absolute;
@@ -24,7 +27,6 @@
     padding-left: 1vw;
     opacity: 0.5;
 }
-
 .search-icon-2 {
     position: absolute;
     right: 31%;
@@ -32,8 +34,10 @@
     margin-top: 3.3%;
 }
 
+/* <!-- city cards section styling--> */
+
 .zagreb-container , .varazdin-container , .dubrovnik-container , .brac-container , .kornati-container , .sibenik-container{
-    /* border: 1px solid black; */
+    border: 1px solid rgb(230, 228, 228);
     position: relative;
     height: 30vh;
     width: 15vw;
@@ -42,19 +46,15 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     margin:1%;
 }
-
 .zagreb-container , .varazdin-container , .dubrovnik-container{
     margin-top: 10%;
 }
-
 .zagreb-container{
     margin-left: 25%;
 }
-
 .brac-container{
     margin-left: 25%;
 }
-
 .picture-main {
     object-fit: cover;
     width: 99%;
@@ -62,20 +62,19 @@
     padding: 2%;
     border-radius: 13px;
 }
-
 .text-main{
     color: #3f3f3f;
     font-weight: 600;
-    font-size: 2vh;
+    font-size: 0.9vw;
     margin-top: 6%;
 }
-
 .text-main-sub{
+    padding-top: 1%;
     color: #3f3f3f;
-    font-size: 1.3vh;
+    font-size: 0.6vw;
 }
-
 .button-3{
+    border: 1px solid rgb(230, 228, 228);
     color: #3f3f3f;
     position: absolute;
     border-radius: 25px;
@@ -89,27 +88,26 @@
     z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-
 .button-3:hover{
     background-color: #FEC749;
     border: 1px solid #3f3f3f;
 }
 
-.main-bottom-container{
+/* <!-- explore city section styling--> */
+
+.explore-city-container{
     background-color: #F7F8FA;
     margin-top: 1vh;
 }
-
 .explore-title{
     color: #3f3f3f;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2vw;
     font-weight: 700;
     padding-top: 5vh;
     padding-bottom: 5vh;
 
 }
-
 .explore-nin-container{
     position: relative;
     /* border: 1px solid black; */
@@ -117,7 +115,6 @@
     width: 56vw;
     margin-left: 22%;
 }
-
 .explore-nin{
     width: 50%;
     height: 100%;
@@ -125,7 +122,6 @@
     color: #3f3f3f;
     padding: 5%;
 }
-
 .explore-nin p{
     font-size: 1.2vh;
     line-height: 1.8;
@@ -133,7 +129,6 @@
  .explore-nin h2{
      color: #FEC749;
  }
-
 .button-4{
     color: #3f3f3f;
     position: absolute;
@@ -149,7 +144,6 @@
 .button-4:hover{
     border: 1px solid #3f3f3f;
 }
-
 .explore-nin-image{
     position: absolute;
     object-fit: cover;
@@ -159,7 +153,6 @@
     top: 0;
     z-index: 1;
 }
-
 .yellow-box{
     position: absolute;
     border: 0.5vw solid   #FEC749;
@@ -167,5 +160,4 @@
     width: 45%;
     bottom: 0;
     right: 0;
-    /* z-index: 5; */
 }
